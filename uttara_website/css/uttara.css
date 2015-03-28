@@ -1,0 +1,62 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+
+blockquote {
+    border: 0;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+#nbc {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+footer {
+    margin: 40px 0px;
+}
+
+.footer-right {
+  float: right;
+  padding-right: 10px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left ul {
+    padding-left: 35px;
+}
+
+
+.footer-left ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  opacity: 0.6;
+}
+
+.footer-left ul li:hover {
+	opacity:1.0;
+}
+
+.footer-left ul li a img {
+	width:75%;
+}
