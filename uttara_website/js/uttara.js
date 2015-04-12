@@ -1,8 +1,16 @@
+(function(){
+    var app = angular.module("uttara", ['page-directives']);
 
-$(document).ready(function() {
-    $("#navheader").load("header.html");
-    $("#uttara-footer").load("footer.html");
-    $("a").on("click", function(e){
-      alert($(this).href)
-    })
-});
+    app.controller("MainController", function(){
+        this.tab = 'home';
+
+        this.setTab = function(selectedTab){
+            this.tab = selectedTab;
+        };
+
+        this.isTabSelected = function(tab){
+            return this.tab === tab;
+        };
+
+    });
+})();

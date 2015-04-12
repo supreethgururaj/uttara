@@ -9,11 +9,11 @@
         </div>
         <div class="collapse navbar-collapse navbar" id="nbc">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="clients.html">Clients</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href ng-click="mainCtrl.setTab('home')" ng-class="{active: mainCtrl.isTabSelected('home')}">Home</a></li>
+                <li><a href ng-click="mainCtrl.setTab('services')" ng-class="{active: mainCtrl.isTabSelected('services')}">Services</a></li>
+                <li><a href ng-click="mainCtrl.setTab('clients')" ng-class="{active: mainCtrl.isTabSelected('clients')}">Clients</a></li>
+                <li><a href ng-click="mainCtrl.setTab('careers')" ng-class="{active: mainCtrl.isTabSelected('careers')}">Careers</a></li>
+                <li><a href ng-click="mainCtrl.setTab('contact')" ng-class="{active: mainCtrl.isTabSelected('contact')}">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="mailto:info@uttara.co.uk">info@uttara.co.uk</a></li>
